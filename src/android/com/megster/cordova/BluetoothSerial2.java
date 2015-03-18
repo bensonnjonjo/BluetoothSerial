@@ -27,7 +27,7 @@ import java.util.Set;
 /**
  * PhoneGap Plugin for Serial Communication over Bluetooth
  */
-public class BluetoothSerial extends CordovaPlugin {
+public class BluetoothSerial2 extends CordovaPlugin {
 
     // actions
     private static final String LIST = "list";
@@ -59,7 +59,7 @@ public class BluetoothSerial extends CordovaPlugin {
     private BluetoothSerialService bluetoothSerialService;
 
     // Debugging
-    private static final String TAG = "BluetoothSerial";
+    private static final String TAG = "BluetoothSerial2";
     private static final boolean D = true;
 
     // Message types sent from the BluetoothSerialService Handler
